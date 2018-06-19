@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/DataCard/!svn/ver/8944/PCSuite/Linux/trunk/linux/etc/ppp
+END
+pap-secrets.template
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/DataCard/!svn/ver/8944/PCSuite/Linux/trunk/linux/etc/ppp/pap-secrets.template
+END
+ip-down.local
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/DataCard/!svn/ver/8944/PCSuite/Linux/trunk/linux/etc/ppp/ip-down.local
+END
+chap-secrets.template
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DataCard/!svn/ver/8944/PCSuite/Linux/trunk/linux/etc/ppp/chap-secrets.template
+END

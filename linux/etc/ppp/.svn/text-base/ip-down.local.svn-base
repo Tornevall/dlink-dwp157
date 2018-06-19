@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#by zhuhaiyan 201207119, for exe script when disconnect from internet
+
+killall pppd
+killall salestracking
+killall salestracking.sh
