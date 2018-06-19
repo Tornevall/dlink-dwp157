@@ -79,7 +79,7 @@ if [ ! -f $ROOT/etc/issue ]; then
 fi
 
 echo "check os support..."
-if [ "$(cat $ROOT/etc/issue | grep Ubuntu)" != "" -a "$(cat $ROOT/etc/issue | grep 9.04)" != "" ]; then
+if [ "$(cat $ROOT/etc/issue | grep Ubuntu)" != "" -a "$(cat $ROOT/etc/issue | grep 9.04)" != "" ] ; then
 	echo "Ubuntu 9.04 not support! exit."
 	exit 0
 fi
@@ -91,7 +91,7 @@ if [ "$(cat $ROOT/etc/issue | grep Fedora)" != "" -a "$(cat $ROOT/etc/issue | gr
 	echo "Fedora 12 not support! exit."
 	exit 0
 fi
-if [ "$(cat $ROOT/etc/issue | grep Fedora)" = "" -a "$(cat $ROOT/etc/issue | grep Ubuntu)" = "" -a "$(cat $ROOT/etc/issue | grep Mandriva)" = "" ]; then
+if [ "$(cat $ROOT/etc/issue | grep Fedora)" = "" -a "$(cat $ROOT/etc/issue | grep Ubuntu)" = "" -a "$(cat $ROOT/etc/issue | grep Mandriva)" = "" -a "$(cat $ROOT/etc/issue | grep 'Linux Mint')" = "" ]; then
 	echo "The linux release version not support! exit."
 	exit 0
 fi
